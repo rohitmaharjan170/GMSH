@@ -21,7 +21,7 @@ class InPatient extends Model
             'in_p_guardian_name'  => 'required',
             'in_p_guardian_phone' => 'required',
             'in_p_blood'          => 'required',
-            'in_p_address'        => 'required',
+            'in_p_address'        => '',
             'in_p_admission_date' => 'required',
             'in_p_case'           => 'required',
             'in_p_doc_id'         => 'required',

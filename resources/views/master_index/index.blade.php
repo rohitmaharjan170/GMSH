@@ -51,18 +51,19 @@
                        <img src="{{ asset('/images/logo/logo-name.jpg') }}" alt="" > 
                        <a data-toggle="collapse" data-target="#menu" href="#menu"><i class="fas d-block d-md-none small-menu fa-bars"></i></a> </a>
                    </div>
-                   <div id="menu" class="col-lg-7 col-md-8 d-none d-md-block no-padding">
+                   <div id="menu" class="col-lg-8 col-md-9 d-none d-md-block no-padding">
                        <ul>
                             <li><a href="{{url('/')}}">Home</a></li>
                             <li><a href="#about">About Us</a></li>
                             <li><a href="#services">Services</a></li>
-                            <li><a href="{{ url('/contact') }}">Gallery</a></li>
-                            <li><a href="{{ url('/contact') }}">Contact Us</a></li>
+                            <li><a href="{{ url('/gallery') }}">Gallery</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                            <li><a href="https://dev.ganeshmansinghhospital.com/phpTest/onlineappointment/app/#!/onlinelabreportdownload"> <button class="btn btn-success">Get Lab Report Online</button></a></li>
                         </ul>
                    </div>
-                   <div class="col-sm-2 d-none d-lg-block">
+                  <!--  <div class="col-sm-2 d-none d-lg-block">
                        <a href="https://dev.ganeshmansinghhospital.com/phpTest/onlineappointment/app/#!/onlinelabreportdownload"> <button class="btn btn-success">Get Lab Report Online</button> </a>
-                   </div>
+                   </div> -->
                 </div>
             </div>
         </nav>
@@ -260,15 +261,15 @@
 
 
                     <div class="col-md-6 col-sm-12 doc-img">
-                        <img  src="assets/images/doctt.png" alt="">
+                        <img  src="{{ asset('/images/about.jfif') }}" alt="">
                     </div>
                     <div class="col-md-6 col-sm-12 doc-det">
-                        <h2>Hello, I’m Doctor Sanjay</h2>
-                        <span>Expert Clinical Psychologist in Manhattan</span>
+                        <h2>GANESHMAN SINGH MEMORIAL HOSPITAL </h2>
+                        <span>& RESEARCH CENTER</span>
 
                         <p>Lorem Ipsum is simply text of the Lorem Ipsum is simply my text of the printing and Ipsum is simply text of the Ipsum is simply text of thetypesetting Ipsum is simply text of the stry simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply text of the Lorem Ipsum is simply my text of </p>
 
-                        <h4>Call me on : +123 98 8887</h4>
+                        <h4>Call us on : 01-5530885</h4>
                     </div>
                 </div>
             </div>
@@ -285,15 +286,32 @@
   	            <div class="col-lg-4 col-md-12">
   	                <div class="single-dd">
   	                    <h4>Our Mission</h4>
-  	                    <p>Lorem Ipsum is simply text of the Lorem Ipsum is simply my text of the printing and Ipsum is simply text of the Ipsum is simply text of thetypesetting Ipsum is simply text of the stry simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply text of the Lorem Ipsum is simply my text of </p>
+  	                    <p>Committed to CARE</p> <br>
+
+C – Compassion: Putting you in the place of another, treating others with kindness, concern and  generosity. 
+<br><br>
+A - Accountability: Accepting responsibility for behavior, quality of work and the outcome.
+<br><br>
+R – Respect: Treating others with courtesy, listening to and valuing what others have to say.
+<br><br>
+E - Excellence: Always striving to provide the best care and services continuously identifying opportunities to improve quality.  
   	                    
   	                    
   	                </div>
   	            </div>
   	            <div class="col-lg-4 col-md-12">
   	                 <div class="single-dd">
-  	                    <h4>Our Vision</h4>
-  	                    <p>Lorem Ipsum is simply text of the Lorem Ipsum is simply my text of ply text of the Ipsum is simply text of thetypesetting Ipsum is simply text of the stry simply <br>dummy text of the printing and typesetting industry. Lorem Ipsum is simply text of the Lorem Ipsum is simply my text of </p>
+  	                    <h4>Key Facts</h4>
+  	                    Some of the key facts about GMSH: <br><br>
+
+  	                    100+ Beds <br><br>
+Around 30+ Leading Doctors<br><br>
+75+ Caring Nurses<br><br>
+50+ Support Staffs<br><br>
+1000+ Recovered Patients <br><br>
+ISO Certified Hospital<br><br>
+Dedicated on Late Ganesh Man Singh <br><br>
+Pioneer Healthcare provider in Nepal
   	                    
   	                    
   	                </div>
@@ -301,11 +319,16 @@
   	            <div class="col-lg-4 col-md-12">
   	                 <div class="single-dd">
   	                    <h4>Why Choos Us ?</h4>
-  	                    <p>Effective Psychological Therapy with a minimum of 5 years post qualification experience. </p>
-  	                    
-  	                    <p>Ipsum is simply text of the Lorem Ipsum is simply my text of ply text</p>
-  	                    
-  	                    <p>Lorem Ipsum is simply text of the Lorem Ipsum is simply my text of ply text of the Ipsum f the Lorem Ipsum is simply my text of ply text </p>
+  	                    The value system at GMSH lies at the foundation of three pillars: <br><br>
+
+ <p>Service, Compassion and Integrity. </p><br>
+Besides we also pratice, <br> <br>
+Care<br><br>
+Compassion<br><br>
+Ethical Practices<br><br>
+Learn & Lead<br><br>
+Teamwork<br><br>
+Trust
   	                    
   	                    
   	                </div>
@@ -319,45 +342,44 @@
   	<section class="sesion-type">
   	    <div class="container">
              <div class="session-title row">
-  		    <h2>Our Session Types</h2>
-  		    <p>Not the answer you're looking for? Printing and typesetting inLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s Lorem</p>
+  		    <h2>Our Department Types</h2>
+  		    <p>GMSH Provides many department inorder to fully execute the hospital in proper way. Some of our department are as:</p>
   		</div>
   	        <div class="row">
   	            <div class="col-md-4 col-sm-6">
   	                <div class="single-sess">
-  	                    <img src="assets/images/session/therapy-1.jpg" alt="">
-  	                    <p>Individual Therapy</p>
+  	                    <img src="{{ asset('/images/session/dep1.jpg') }}" alt="">
+  	                    <p>Medical Department</p>
   	                </div>
   	            </div>
   	            <div class="col-md-4 col-sm-6">
   	                <div class="single-sess">
-  	                    <img src="assets/images/session/therapy-2.jpg" alt="">
-  	                    <p>Cuple Therapy</p>
+  	                    <img src="{{ asset('/images/session/dep2.jpg') }}" alt="">
+  	                    <p>OPD</p>
   	                </div>
   	            </div>
   	            <div class="col-md-4 col-sm-6">
   	                <div class="single-sess">
-  	                    <img src="assets/images/session/therapy-3.jpg" alt="">
-  	                    <p>online Session</p>
+  	                    <img src="{{ asset('/images/session/dep3.jpg') }}" alt="">
+  	                    <p>IPD</p>
   	                </div>
   	            </div>
   	            <div class="col-md-4 col-sm-6">
   	                <div class="single-sess">
-  	                    <img src="assets/images/session/therapy-4.jpg" alt="">
-  	                    <p>Group Therapy</p>
+  	                    <img src="{{ asset('/images/session/dep4.jpg') }}" alt="">
+  	                    <p>X-ray</p>
   	                </div>
   	            </div>
   	            <div class="col-md-4 col-sm-6">
   	                <div class="single-sess">
-  	                    <img src="assets/images/session/therapy-5.jpg" alt="">
-  	                    <p>All Age Group</p>
+  	                    <img src="{{ asset('/images/session/dep5.jpg') }}" alt="">
+  	                    <p>Pathology</p>
   	                </div>
   	            </div>
-  	            <div class="col-md-4 col-sm-6">
-  	                <div class="single-sess sess-ok">
-  	                   <h4>Start Your Session today</h4>
-  	                    <p>Take the first step on your journey to feeling better. </p>
-  	                    <button class="btn btn-success">Book an Appointment</button>
+  	             <div class="col-md-4 col-sm-6">
+  	                <div class="single-sess">
+  	                    <img src="{{ asset('/images/session/dep6.jpg') }}" alt="">
+  	                    <p>Administrative Departments</p>
   	                </div>
   	            </div>
   	        </div>
@@ -373,32 +395,20 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-sm-12">
-                    <h2>About Us</h2>
-                    <p>
-                        Smart Eye is a leading provider of information technology, consulting, and business process services. Our dedicated employees offer strategic insights, technological expertise and industry experience.
-                    </p>
-                    <p>We focus on technologies that promise to reduce costs, streamline processes and speed time-to-market, Backed by our strong quality processes and rich experience managing global... </p>
+                <div class="col-md-8 col-sm-12">
+                    <h5>                        GANESHMAN SINGH MEMORIAL HOSPITAL & RESEARCH CENTER </h5>
+
+                     <img src="{{ asset('/images/logo/logo-name.jpg') }}" alt="" > 
+                    
                 </div>
-                <div class="col-md-4 col-sm-12">
-                    <h2>Useful Links</h2>
-                    <ul class="list-unstyled link-list">
-                        <li><a ui-sref="about" href="#/about">About us</a><i class="fa fa-angle-right"></i></li>
-                        <li><a ui-sref="portfolio" href="#/portfolio">Portfolio</a><i class="fa fa-angle-right"></i></li>
-                        <li><a ui-sref="products" href="#/products">Latest jobs</a><i class="fa fa-angle-right"></i></li>
-                        <li><a ui-sref="gallery" href="#/gallery">Gallery</a><i class="fa fa-angle-right"></i></li>
-                        <li><a ui-sref="contact" href="#/contact">Contact us</a><i class="fa fa-angle-right"></i></li>
-                    </ul>
-                </div>
+
                 <div class="col-md-4 col-sm-12 map-img">
                     <h2>Contact Us</h2>
                     <address class="md-margin-bottom-40">
-                        BlueDart <br>
-                        Marthandam (K.K District) <br>
-                        Tamil Nadu, IND <br>
-                        Phone: +91 9159669599 <br>
-                        Email: <a href="mailto:info@anybiz.com" class="">info@bluedart.in</a><br>
-                        Web: <a href="smart-eye.html" class="">www.bluedart.in</a>
+                       	Address : Mahalaxmisthan-15,Lalitpur <br>
+                        Email : ganeshmansinghhospital@gmail.com<br>
+                        Phone : 015530885 <br>
+
                     </address>
 
                 </div>
@@ -409,14 +419,10 @@
     </footer>
     <div class="copy">
             <div class="container">
-                <a href="https://www.smarteyeapps.com/"><script>document.write(new Date().getFullYear())</script> &copy; All Rights Reserved | Designed and Developed GaneshManSingh Hospital</a>
+                <a href="https://www.smarteyeapps.com/"><script>document.write(new Date().getFullYear())</script> &copy; All Rights Reserved | GaneshMan Singh Memorial Hospital</a>
                 
                 <span>
-                <a><i class="fab fa-github"></i></a>
-                <a><i class="fab fa-google-plus-g"></i></a>
-                <a><i class="fab fa-pinterest-p"></i></a>
-                <a><i class="fab fa-twitter"></i></a>
-                <a><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.facebook.com/ganeshmansinghmemorialhospital" target="_blank"><i class="fab fa-facebook-f"></i></a>
         </span>
             </div>
 

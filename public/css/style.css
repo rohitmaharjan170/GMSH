@@ -234,7 +234,8 @@ header {
         margin-bottom: 5px; } }
   header .btn {
     font-family: "mouse-500", Arial, Helvetica, sans-serif;
-    margin-top: 22px; }
+    margin-top: -5px; 
+  }
 
 .scroll-to-fixed-fixed {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
@@ -261,7 +262,7 @@ header {
 
 .slider-captions {
   position: absolute;
-  bottom: 328px;
+  bottom: 300px;
   text-align: center; }
   @media screen and (max-width: 1050px) {
     .slider-captions {

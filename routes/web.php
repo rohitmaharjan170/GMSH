@@ -1,6 +1,6 @@
 <?php
 
-Route::get('/', 'HomeController@home');
+Route::get('/', 'MasterController@home');
 
 Auth::routes();
 
